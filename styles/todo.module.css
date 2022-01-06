@@ -1,0 +1,81 @@
+
+.frame {
+    width: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    padding: 32px 0;
+    background: #23282f;
+    align-items: center;
+    min-height: calc(100vh - 64px);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+}
+
+.todo {
+    width: 400px;
+    border-radius: 24px;
+    box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to top right, blue, pink);
+    padding: 24px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_frame {
+    width: 48px;
+    margin-right: 24px;
+    height: 48px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.input {
+    border: 0;
+    padding: 0;
+    width: 200%;
+    height: 200%;
+    cursor: pointer;
+    transform: translate(-25%, -25%)
+}
+
+.title {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    margin: 24px 0;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+}
+
+.filter {
+    background-color: gold;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Gill Sans", sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+    border-radius: 42px;
+}
+
+.selected {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.un_selected {
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-size: 18px;
+}
